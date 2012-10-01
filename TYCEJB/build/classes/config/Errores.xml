@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definicion de los mensajes para los usuarios segun Familia -->
+<!-- El documento para la configuracion de errores CAE posee la sgt estructura:
+	<famN> N indica el numero de familia a la que pertenece el error, esas pueden ser:
+		1 = WebService
+		2 = Base de Datos (Coneccion)
+		3 = Base de Datos (Procedimientos)
+		4 = Capa de negocios (Metodos)
+		5 = Capa de vista (Metodos)
+	<errorFamilia> su contenido es el mensaje a desplegar cuando suceda un error de la familia indicada en "famN"
+	<errN> N indica el codigo de error al cual se desea modificar el mensaje de error
+	<message> contiene el mensaje con el cual será reemplazado el mensaje de familia para este error en particular
+ -->
+ <erroresAplicacion>
+ 	<errores>
+	 	<familia_1>
+	 		<msgFamilia>Se ha perdido la conexión con el Sistema Central. Por favor reintente nuevamente. En caso de persistir el problema, contacte a .....</msgFamilia>
+	 	</familia_1>
+	 	<familia_2>
+	 		<msgFamilia>Se ha perdido la conexión con la Base de Datos. Por favor reintente nuevamente. En caso de persistir el problema, contacte a ....</msgFamilia>
+	 	</familia_2>
+	 	<familia_3>
+	 		<msgFamilia>Se ha producido un error en la Base de Datos. Por favor reintente nuevamente. En caso de persistir el problema, contacte a ....</msgFamilia>
+	 	</familia_3>
+	 	<familia_4>
+	 		<msgFamilia>Se ha producido un error en la Aplicación. Por favor reintente nuevamente. En caso de persistir el problema, contacte a ....</msgFamilia>
+	 	</familia_4>
+	 	<familia_5>
+	 		<msgFamilia>Se ha producido un error en la Aplicación. Por favor reintente nuevamente. En caso de persistir el problema, contacte a .....</msgFamilia>
+	 	</familia_5>
+ 	</errores>
+ </erroresAplicacion>

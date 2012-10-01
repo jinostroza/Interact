@@ -1,0 +1,12 @@
+/**************************************************************/
+/********************** CSS GRILLA CUSTOM *********************/
+/**************************************************************/
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #EBEBC8; background: #919178; font-weight: bold; color: #EBEBC8; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #EBEBC8; background: #CDCDAF; font-weight: bold; color: #3C3C32; }/*bg: #79c9ec --- color: #026890*/
+.ui-widget-header {border: 1px solid #EBEBC8;background: #5A5A4B;color: #EBEBC8;font-weight: bold;}
+.ui-widget-content{background: #C4C3A5;color: #3C3C32;border: 1px solid #EBEBC8}
+.ui-jqgrid tr.jqgrow td {font-weight: normal; overflow: hidden; white-space: pre; height: 30px;padding: 0 2px 0 2px;border-bottom-width: 1px; border-bottom-color: #EBEBC8; border-bottom-style: solid;}
+.ui-widget { font-family: Arial, Verdana, Tahoma, sans-serif; font-size: 1.1em; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #EBEBC8; background: #fff; color: #3C3C32; }/* cambia color selecion fila*/
+.ui-jqgrid .ui-jqgrid-titlebar {padding: 0.5em 0.3em 0.5em .3em; position: relative; border-left: 0px none;border-right: 0px none; border-top: 0px none;}

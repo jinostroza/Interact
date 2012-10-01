@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/JBoss EAP 5.x Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.ejb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TYCBeans"/>
+	<classpathentry kind="lib" path="C:/DesarrolloJava/jboss-eap-5.1/jboss-as/lib/endorsed/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/DesarrolloJava/workspace/Billing/Desarrollo/TYC/TYCEJB/lib/LibSolem-1.0.jar" sourcepath="C:/DesarrolloJava/workspace/Billing/Desarrollo/LibSolem"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

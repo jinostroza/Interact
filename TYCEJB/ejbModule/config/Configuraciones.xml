@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuraciones>
+	<servlet>
+		<map>
+			<bean>
+				<package>cl.solem.tyc.beans</package>
+			</bean>
+		</map>
+	</servlet>
+</configuraciones>

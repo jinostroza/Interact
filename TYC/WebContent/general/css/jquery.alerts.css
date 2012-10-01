@@ -1,0 +1,184 @@
+/*#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px; *//*
+	min-width: 300px; /* Dialog will be no smaller than this 
+	max-width: 600px; /* Dialog will wrap after this width */
+/*	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url(../imagenes/alert/title.gif) top repeat-x;
+	border: solid 1px #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: 16px 16px no-repeat url(alert/info.gif);
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url(../imagenes/alert/info.gif);
+}
+
+#popup_content.confirm {
+	background-image: url(../imagenes/alert/important.gif);
+}
+
+#popup_content.prompt {
+	background-image: url(../imagenes/alert/help.gif);
+}
+
+#popup_message {
+	padding-left: 48px;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}*/
+
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 455px; /* 550 Dialog will be no smaller than this */
+	max-width: 455px; /* 600 Dialog will wrap after this width */
+	height: 280px;/*360*/
+	color: #000;
+    background-color: #D7D7B5; 
+	border: 1px solid #E5E5C2;
+	box-shadow: 4px 4px 21px #73735F;/*sombra*/
+	border-radius: 16px;
+} 
+#popup_title {
+	height: 32px;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.75em;
+	color: #fff;
+	background: #5a5a4b;
+	border: 0;
+	cursor: default;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid #EBEBC8;
+	color: #EBEBC8;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+} 
+#popup_content {
+	margin: 0;
+	height: 170px;
+	text-align: right; 
+	background: #D7D7B5;
+	width: 537pxpx;
+}
+#contenedor_popup_message {
+	height: 191px;
+	width: 440px;
+	background: #C2C2A4;
+	border: 1px solid #E5E5C2;
+	margin: -1px 0 0 9px;
+} 
+#popup_message {
+	font: 9pt Arial, sans-serif;
+	color: #3C3C32; /*#5A5A4B;*/
+	text-align: left;
+	width: 340px;
+	height: 163px;
+	margin: 27px 0 0 50px;
+}
+
+#popup_panel {
+	text-align: right;
+	margin: 14px 0 0 48px;/*190 0*/
+	/*background: #D7D7B5;agregado*/
+	width: 391px;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+
+#popup_ok {
+    border: 0;
+	width: 96px;
+	height: 25px;
+    cursor: pointer;
+}
+
+#popup_cancel {
+    border: 0;
+	width: 96px;
+	height: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.imgAlert {
+	margin: 11px 0 0 9px;
+	float: left;
+	height: 22px;
+	width: 25px;
+} 
+.mensajeAlert {
+	margin: 12px 25px;
+	float: left;
+}
+
+/************************************************************/
+.popup_container_error { 
+	min-width: 420px !important;  
+	max-width: 420px !important;  
+	height: 290px !important;/*360*/ 
+}
+.popup_title_error {
+	height: 36px !important;
+}  
+.contenedor_popup_message_error {
+	height: 200px !important;
+	width: 400px !important;  
+}
+.popup_message_error {
+	width: 310px !important;
+	height: 173px !important 
+} 
+.popup_panel_error { 
+	margin: 8px 0 0 9px !important;/*190 0*/ 
+	width: 391px !important;
+} 
+.popup_ok_error { 
+	width: 82px !important;
+	height: 37px !important; 
+} 
+.imgAlert_error {
+	margin: 6px 0 0 9px;	
+	float: left;
+	height: 22px;
+	width: 25px;
+}
+.mensajeAlert_error {
+	margin: 8px 5px;
+	float: left;
+}
+
+/***********************************************************************************************/
